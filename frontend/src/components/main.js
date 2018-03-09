@@ -6,7 +6,7 @@ import Content from './content.js';
 class Main extends React.Component{
     render(){
         return(
-            <div>
+            <div className="container">
                 <Navbar/>
                 <Content/>
             </div>
