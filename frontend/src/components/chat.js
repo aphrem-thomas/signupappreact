@@ -1,7 +1,7 @@
 import React from 'react';
 import SignIn from './signin.js';
 import {Link} from 'react-router-dom';
-import Signup from './signup.js';
+
 
 class Chat extends React.Component{
     render(){
