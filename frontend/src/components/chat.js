@@ -1,11 +1,17 @@
 import React from 'react';
-
+import SignIn from './signin.js';
+import {Link} from 'react-router-dom';
+import Signup from './signup.js';
 
 class Chat extends React.Component{
     render(){
         return(
             <div>
-                this is chat space
+                <SignIn/>
+                <div className="jumbotron bottombar">
+                if you are not signed up,
+                <span><Link to="signup">signup</Link></span>
+                </div>
             </div>
         );
     }
